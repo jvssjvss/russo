@@ -1,4 +1,16 @@
 /* @GRIDS */
 /* ********** */
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, 300px) 1fr minmax(300px, 600px); 
 
+    @media only screen and (min-width: 280px){
+    height: 300vh;}
+
+    @media only screen and (min-width: 1000px){
+        height: 200vh;}
+    
+
+}
 
